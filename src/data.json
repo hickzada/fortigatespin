@@ -6,12 +6,12 @@
         {
           "name": "EXPO",
           "url": "https://100.74.2.129:8443",
-          "description": "EXPO FortiGate"
+          "description": "FortiGate"
         },
         {
           "name": "ADM",
           "url": "https://vpn.cidadecenternorte.com.br:8443",
-          "description": "ADM FortiGate"
+          "description": "FortiGate"
         }
       ]
     },
@@ -21,22 +21,22 @@
         {
           "name": "Clia",
           "url": "https://189.108.172.18:8443/ng/system/dashboard/1",
-          "description": "FortiGate | Clia"
+          "description": "FortiGate"
         },
         {
           "name": "Ana Costa",
           "url": "https://100.120.1.3:8443/ng/system/dashboard/1",
-          "description": "FortiGate | Ana Costa"
+          "description": "FortiGate"
         },
         {
           "name": "IPA",
           "url": "https://100.120.1.6:8443/network/sd-wan?tabType=health-check",
-          "description": "FortiGate | IPA"
+          "description": "FortiGate"
         },
         {
           "name": "EMBRA FW1",
           "url": "https://100.74.0.1:8443/ng/user/local",
-          "description": "FortiGate | EMBRA FW1"
+          "description": "FortiGate"
         }
       ]
     }
