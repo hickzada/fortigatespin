@@ -72,7 +72,7 @@ function App() {
               />
             </div>
             <h2 className="mt-8 text-3xl font-extrabold text-gray-900 tracking-tight">Portal FortiGate Clientes</h2>
-            <p className="mt-3 text-sm text-gray-500">Acesse o portal de gerenciamento FortiGate</p>
+            <p className="mt-3 text-sm text-gray-500">Acesse o portal de FortiGates</p>
           </div>
           <form className="mt-8 space-y-6" onSubmit={handleLogin}>
             {error && (
