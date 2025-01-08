@@ -1,0 +1,44 @@
+{
+  "companies": [
+    {
+      "name": "Cidade Center Norte",
+      "units": [
+        {
+          "name": "EXPO",
+          "url": "https://100.74.2.129:8443",
+          "description": "EXPO FortiGate"
+        },
+        {
+          "name": "ADM",
+          "url": "https://vpn.cidadecenternorte.com.br:8443",
+          "description": "ADM FortiGate"
+        }
+      ]
+    },
+    {
+      "name": "Deicmar",
+      "units": [
+        {
+          "name": "Clia",
+          "url": "https://189.108.172.18:8443/ng/system/dashboard/1",
+          "description": "FortiGate | Clia"
+        },
+        {
+          "name": "Ana Costa",
+          "url": "https://100.120.1.3:8443/ng/system/dashboard/1",
+          "description": "FortiGate | Ana Costa"
+        },
+        {
+          "name": "IPA",
+          "url": "https://100.120.1.6:8443/network/sd-wan?tabType=health-check",
+          "description": "FortiGate | IPA"
+        },
+        {
+          "name": "EMBRA FW1",
+          "url": "https://100.74.0.1:8443/ng/user/local",
+          "description": "FortiGate | EMBRA FW1"
+        }
+      ]
+    }
+  ]
+}
