@@ -1,44 +1,512 @@
 {
-  "companies": [
-    {
-      "name": "Cidade Center Norte",
-      "units": [
+    "companies": [
         {
-          "name": "EXPO",
-          "url": "https://100.74.2.129:8443",
-          "description": "FortiGate"
+            "name": "Cidade Center Norte",
+            "units": [
+                {
+                    "name": "EXPO",
+                    "url": "https://100.74.2.129:8443",
+                    "description": "FortiGate"
+                },
+                {
+                    "name": "ADM",
+                    "url": "https://vpn.cidadecenternorte.com.br:8443",
+                    "description": "FortiGate"
+                }
+            ]
         },
         {
-          "name": "ADM",
-          "url": "https://vpn.cidadecenternorte.com.br:8443",
-          "description": "FortiGate"
+            "name": "Deicmar",
+            "units": [
+                {
+                    "name": "Clia",
+                    "url": "https://189.108.172.18:8443/ng/system/dashboard/1",
+                    "description": "FortiGate"
+                },
+                {
+                    "name": "Ana Costa",
+                    "url": "https://100.120.1.3:8443/ng/system/dashboard/1",
+                    "description": "FortiGate"
+                },
+                {
+                    "name": "IPA",
+                    "url": "https://100.120.1.6:8443/network/sd-wan?tabType=health-check",
+                    "description": "FortiGate"
+                },
+                {
+                    "name": "EMBRA FW1",
+                    "url": "https://100.74.0.1:8443/ng/user/local",
+                    "description": "FortiGate"
+                }
+            ]
+        },
+        {
+            "name": "ABVCAP",
+            "units": [
+                {
+                    "url": "https://179.191.75.38:4444/prompt/fortigate-setup?viewOnly=&redir=%2Fsystem%2Fdashboard%2F1",
+                    "description": "ABVCAP"
+                }
+            ]
+        },
+        {
+            "name": "SURF TELECOM",
+            "units": [
+                {
+                    "url": "https://192.168.10.1:4443/prompt?viewOnly=&redir=%2F",
+                    "description": "FortiGate - FGT80E-BERRINI-SP-01"
+                },
+                {
+                    "url": "https://surftelecom.pinpoint.net.br/apiclient/ember/index.jsp#/",
+                    "description": "OPM | SURFTELECOM"
+                },
+                {
+                    "url": "https://201.6.112.26:4443/prompt?viewOnly&redir=%2F",
+                    "description": "SURF TELECOM"
+                },
+                {
+                    "url": "https://177.69.218.137:4443/ng/admin",
+                    "description": "SURF-SPO"
+                },
+                {
+                    "url": "https://192.168.50.1:4443/network/sd-wan?tabType=health-check",
+                    "description": "FortiGate - FGT80E-MATRIZ-SP-01"
+                },
+                {
+                    "url": "https://201.87.156.174:4443/system/dashboard/1?releaseOverview=true",
+                    "description": "FortiGate - FGT80E-BERRINI-SP-01 - MEGA TELECOM"
+                },
+                {
+                    "url": "https://192.168.50.1:4443/system/dashboard/12",
+                    "description": "FortiGate - SURF-MATRIZ"
+                },
+                {
+                    "url": "https://100.74.13.241:8443/ng/system/dashboard/1",
+                    "description": "FortiGate - FGT60F-BERRINI-SP-02"
+                },
+                {
+                    "url": "https://192.168.30.16:8443/manage/account/login?redirect=%2Fmanage",
+                    "description": "UniFi Network"
+                },
+                {
+                    "url": "https://atendimento.pinpoint.com.br/WorkOrder.do?woMode=viewWO&woID=1805446",
+                    "description": "[STURZENEGGER] Alarmes Firewalls"
+                }
+            ]
+        },
+        {
+            "name": "STURZENEGGER",
+            "units": [
+                {
+                    "url": "https://100.120.2.1:8443/system/dashboard/1",
+                    "description": "FortiGate - SCADVFGSP1"
+                },
+                {
+                    "url": "https://100.120.2.2:8443/system/dashboard/1",
+                    "description": "FortiGate - SCADVFGBSB1"
+                },
+                {
+                    "url": "https://189.50.89.75:8443/login?redir=%2Fng%2Fadmin",
+                    "description": "STURZENEGGER - BRASILIA"
+                },
+                {
+                    "url": "https://67.159.241.66:8443/login?redir=%2Fng%2Fadmin",
+                    "description": "STURZENEGGER - São Paulo"
+                },
+                {
+                    "url": "https://189.2.169.178:8443/network/sd-wan?tabType=health-check",
+                    "description": "STURZENEGGER - SPO 2"
+                }
+            ]
+        },
+        {
+            "name": "EMBRAGEN",
+            "units": [
+                {
+                    "url": "https://100.74.0.1:8443/ng/system/dashboard/1",
+                    "description": "FortiGate - EMBRA-FW1"
+                },
+                {
+                    "url": "http://160.1.4.1/screens/dashboard.html#/ClientTable",
+                    "description": "WLC_Embragen"
+                }
+            ]
+        },
+        {
+            "name": "DEICMAR",
+            "units": [
+                {
+                    "url": "https://100.120.1.3:8443/ng/system/dashboard/1",
+                    "description": "FortiGate - FGT40F-ANA-COSTA-01"
+                },
+                {
+                    "url": "https://100.120.2.1:8443/firewall/policy/policy/standard",
+                    "description": "FortiGate - SCADVFGSP1"
+                },
+                {
+                    "url": "https://200.146.209.85:8443/prompt?viewOnly&redir=%2F",
+                    "description": "DEICMAR - ALGAR"
+                },
+                {
+                    "url": "https://187.60.16.81:8443/login?redir=%2Fng%2Fsystem%2Fdashboard%2F1",
+                    "description": "DR DEICMAR"
+                },
+                {
+                    "url": "https://100.120.1.6:8443/login?redir=%2F",
+                    "description": "DEICMAR IPA"
+                },
+                {
+                    "url": "https://189.108.172.18:8443/ng/utm/webfilter/profile/edit/WF_Pos-Venda",
+                    "description": "FortiGate - FGT100F-CLIA-01"
+                },
+                {
+                    "url": "https://100.120.1.5:8443/ng/system/dashboard/1?releaseOverview=true",
+                    "description": "FortiGate - FGT40F-PATIO-01"
+                },
+                {
+                    "url": "https://100.120.1.7:8443/login?redir=%2F",
+                    "description": "100.120.1.7:8443/login?redir=%2F"
+                },
+                {
+                    "url": "https://100.120.1.7:8443/ng/system/dashboard/11",
+                    "description": "FortiGate - DCM_STS_CONN_FW_01"
+                },
+                {
+                    "url": "https://100.120.1.1:8443/ng/system/dashboard/1",
+                    "description": "FortiGate - FGT100F-CLIA-01"
+                }
+            ]
+        },
+        {
+            "name": "CENTER NORTE",
+            "units": [
+                {
+                    "url": "https://centernorte.pinpoint.net.br/apiclient/ember/index.jsp#/Home/Dashboard/Overview/dashboard.name.enterprisedashboard",
+                    "description": "CIDADE CENTER NORTE"
+                },
+                {
+                    "url": "https://vpn.cidadecenternorte.com.br:8443/vpn/ipsec",
+                    "description": "FortiGate - CCN_ADM_FW_FGT_01"
+                },
+                {
+                    "url": "https://central.sophos.com/manage/overview/dashboard",
+                    "description": "Sophos Central"
+                },
+                {
+                    "url": "https://central.sophos.com/manage/firewall-management/firewall-groups-a/list",
+                    "description": "Sophos Central"
+                },
+                {
+                    "url": "http://cofre.cidadecenternorte.com.br/index.php?r=login",
+                    "description": "sysPass :: Systems Password Manager"
+                },
+                {
+                    "url": "http://itsm.cidadecenternorte.com.br/front/central.php",
+                    "description": "CCN - Acesso negado"
+                },
+                {
+                    "url": "https://login.sophos.com/login.sophos.com/oauth2/v2.0/authorize?p=B2C_1A_signup_signin&client_id=d8ce821f-a1da-4b03-b7e2-1d1a9cc028f3&redirect_uri=https%3A%2F%2Fcentral.sophos.com%2Fmanage%2Flogin%2Fazureb2c&scope=openid&response_type=id_token&prompt=login&state=",
+                    "description": "Sophos"
+                },
+                {
+                    "url": "http://cns-ocs01.ccn.local/ocsreports/index.php",
+                    "description": "OCS Inventory"
+                },
+                {
+                    "url": "http://172.16.16.43/",
+                    "description": "CCN: Zabbix"
+                },
+                {
+                    "url": "http://cns-fs:9191/app;jsessionid=node0rdkra3h34iu5b6t3fzcwgr460.node0?service=page/Home",
+                    "description": "ibsolution - sinall otto baumgart Login PaperCut"
+                },
+                {
+                    "url": "http://exs-fs:9191/app",
+                    "description": "ibsolution - sinall otto baumgart Login PaperCut"
+                },
+                {
+                    "url": "https://app.optimusprime.com.br/centernorte/prime/",
+                    "description": "OSCI - Optimus Sistema de Controle Integrado"
+                },
+                {
+                    "url": "https://managersinall.com.br/",
+                    "description": "managersinall.com.br"
+                },
+                {
+                    "url": "https://172.16.31.223:8443/ng/admin",
+                    "description": "FortiGate - CCN_DC_FW_FGT_01"
+                },
+                {
+                    "url": "https://community.fortinet.com/t5/FortiGate/Technical-Tip-Packet-capture-sniffer/ta-p/198313",
+                    "description": "Packet capture (sniffer) - Fortinet Community"
+                },
+                {
+                    "url": "https://100.74.2.7:8443/switch/interface",
+                    "description": "FortiSwitch - CCN_DC_SW_SWC_01"
+                },
+                {
+                    "url": "https://www.bosontreinamentos.com.br/windows-powershell/14-exemplos-de-comandos-de-rede-no-windows-powershell/",
+                    "description": "14 exemplos de Comandos de Rede no PowerShell - Bóson Treinamentos em Ciência e Tecnologia"
+                },
+                {
+                    "url": "https://jquerydicas.blogspot.com/2020/11/verificar-se-uma-porta-esta-aberta-no.html",
+                    "description": "Dicas Sql: Verificar se uma porta está aberta no Windows (pingar ip com porta) - PowerShell"
+                },
+                {
+                    "url": "https://docs.fortinet.com/document/fortiswitch/7.4.2/fortiswitchos-cli-reference/896953/get",
+                    "description": "get | FortiSwitch 7.4.2 | Fortinet Document Library"
+                },
+                {
+                    "url": "https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection?view=windowsserver2022-ps",
+                    "description": "Test-NetConnection (NetTCPIP) | Microsoft Learn"
+                },
+                {
+                    "url": "https://brainwork.com.br/2022/05/31/testando-acesso-com-o-test-netconnection-powershell/",
+                    "description": "Testando acesso com o Test-NetConnection (PowerShell) – Brainwork"
+                },
+                {
+                    "url": "http://172.16.64.113/wcn/frame/.x",
+                    "description": "SW-CCN-SE2-SUBESTACAO"
+                },
+                {
+                    "url": "http://172.16.64.118/web/device/login?lang=0",
+                    "description": "Web user login"
+                },
+                {
+                    "url": "http://172.16.64.201/wcn/frame/.x",
+                    "description": "SW-CCN-ACC-CPD02"
+                },
+                {
+                    "url": "http://172.16.64.108/wcn/frame/.x",
+                    "description": "HP 1920-24G Switch Software Version Release 1108"
+                },
+                {
+                    "url": "http://172.16.64.126/wcn/frame/.x",
+                    "description": "SW-CCN-SE88-SUBESTACAO"
+                },
+                {
+                    "url": "http://172.16.64.204/wcn/frame/.x",
+                    "description": "SW-CCN-ACC-CPDP04"
+                },
+                {
+                    "url": "http://172.16.64.122/wcn/frame/.x",
+                    "description": "SW-CCN-Subestacao8"
+                },
+                {
+                    "url": "http://172.16.64.111/wcn/frame/.x",
+                    "description": "SW-CCN-ALMOXARIFADO"
+                },
+                {
+                    "url": "http://172.16.64.112/wcn/frame/.x",
+                    "description": "Switch Sala Verzani - CCN"
+                },
+                {
+                    "url": "http://172.16.64.10/cs109b11d3/hpe/home.htm",
+                    "description": "SW-CCN-CORE-EXPO"
+                },
+                {
+                    "url": "http://172.16.64.116/wcn/frame/.x",
+                    "description": "SW-ACC-SUBESTACAO-01"
+                },
+                {
+                    "url": "http://172.16.64.115/wcn/frame/.x",
+                    "description": "SW-CCN-SUBESTACAO-4"
+                },
+                {
+                    "url": "http://172.16.64.117/wcn/frame/.x",
+                    "description": "SW-CCN-SE3-SUBESTACAO"
+                },
+                {
+                    "url": "https://172.16.31.197:8443/switch/physical",
+                    "description": "FortiSwitch - SW_ACC3_LC"
+                },
+                {
+                    "url": "https://172.16.31.184:8443/system/dashboard",
+                    "description": "FortiSwitch - SW_ACC1_LC"
+                },
+                {
+                    "url": "http://172.16.31.230/config/authentication_page.htm",
+                    "description": "SW-ACC-SERVIDORES-DELL"
+                },
+                {
+                    "url": "https://100.74.2.7:8443/login",
+                    "description": "CCN_DC_SW_SWC_01"
+                },
+                {
+                    "url": "https://100.74.2.4:8443/system/dashboard",
+                    "description": "FortiSwitch - SW_ACC_CPD_CN_01"
+                },
+                {
+                    "url": "https://web.whatsapp.com/",
+                    "description": "WhatsApp"
+                },
+                {
+                    "url": "https://dl.dell.com/manuals/common/powerconnect-3424_reference%20guide_en-us.pdf",
+                    "description": "Command Line Interface (CLI) Guide"
+                },
+                {
+                    "url": "https://vpn.cidadecenternorte.com.br:8443/ng/interface/ssid/edit/CCN_TERC",
+                    "description": "FortiGate - CCN_ADM_FW_FGT_01"
+                },
+                {
+                    "url": "https://100.74.2.1:8443/system/dashboard/1",
+                    "description": "FortiGate - CCN_ADM - Loopback"
+                },
+                {
+                    "url": "https://100.74.3.226:8443/system/dashboard/1",
+                    "description": "FortiGate - CCN_EXPO_FW_FGT_01"
+                },
+                {
+                    "url": "https://accounts.zoho.com/announcement/tfa-banner?servicename=Site24x7&serviceurl=https%3A%2F%2Fwww.site24x7.com%2Flogin%2Fsuccess.jsp%3Furlpath%3D%252Fapp%252Fclient",
+                    "description": "Zoho Accounts"
+                },
+                {
+                    "url": "https://100.74.13.241:8443/login?redir=%2F",
+                    "description": "100.74.13.241:8443/login?redir=%2F"
+                },
+                {
+                    "url": "http://172.16.16.84/index.php?r=login",
+                    "description": "sysPass :: Systems Password Manager"
+                },
+                {
+                    "url": "https://100.74.3.226:8443/network/sd-wan?tabType=members",
+                    "description": "FortiGate - CCN_EXPO_FW_FGT_01"
+                },
+                {
+                    "url": "https://172.16.16.100:8443/system/dashboard/1",
+                    "description": "FortiGate - CCN_ADM_FW_FGT_01 - Loopback"
+                },
+                {
+                    "url": "https://100.74.3.1:8443/login?redir=%2Futm%2Fwebfilter%2Fprofile%3FshowInList%3D%257B%2522q_origin_key%2522%3A%2522SP_WF_TERCEIROS%2522%257D",
+                    "description": "100.74.3.1:8443/login?redir=%2Futm%2Fwebfilter%2Fprofile%3FshowInList%3D%257B%2522q_origin_key%2522%3A%2522SP_WF_TERCEIROS%2522%257D"
+                }
+            ]
+        },
+        {
+            "name": "Swithes HP",
+            "units": [
+                {
+                    "url": "http://172.16.64.113/wcn/frame/.x",
+                    "description": "SW-CCN-SE2-SUBESTACAO"
+                },
+                {
+                    "url": "http://172.16.64.118/web/device/login?lang=0",
+                    "description": "Web user login"
+                },
+                {
+                    "url": "http://172.16.64.201/wcn/frame/.x",
+                    "description": "SW-CCN-ACC-CPD02"
+                },
+                {
+                    "url": "http://172.16.64.108/wcn/frame/.x",
+                    "description": "HP 1920-24G Switch Software Version Release 1108"
+                },
+                {
+                    "url": "http://172.16.64.126/wcn/frame/.x",
+                    "description": "SW-CCN-SE88-SUBESTACAO"
+                },
+                {
+                    "url": "http://172.16.64.204/wcn/frame/.x",
+                    "description": "SW-CCN-ACC-CPDP04"
+                },
+                {
+                    "url": "http://172.16.64.122/wcn/frame/.x",
+                    "description": "SW-CCN-Subestacao8"
+                },
+                {
+                    "url": "http://172.16.64.111/wcn/frame/.x",
+                    "description": "SW-CCN-ALMOXARIFADO"
+                },
+                {
+                    "url": "http://172.16.64.112/wcn/frame/.x",
+                    "description": "Switch Sala Verzani - CCN"
+                },
+                {
+                    "url": "http://172.16.64.10/cs109b11d3/hpe/home.htm",
+                    "description": "SW-CCN-CORE-EXPO"
+                },
+                {
+                    "url": "http://172.16.64.116/wcn/frame/.x",
+                    "description": "SW-ACC-SUBESTACAO-01"
+                },
+                {
+                    "url": "http://172.16.64.115/wcn/frame/.x",
+                    "description": "SW-CCN-SUBESTACAO-4"
+                },
+                {
+                    "url": "http://172.16.64.117/wcn/frame/.x",
+                    "description": "SW-CCN-SE3-SUBESTACAO"
+                },
+                {
+                    "url": "https://172.16.31.197:8443/switch/physical",
+                    "description": "FortiSwitch - SW_ACC3_LC"
+                },
+                {
+                    "url": "https://172.16.31.184:8443/system/dashboard",
+                    "description": "FortiSwitch - SW_ACC1_LC"
+                },
+                {
+                    "url": "http://172.16.31.230/config/authentication_page.htm",
+                    "description": "SW-ACC-SERVIDORES-DELL"
+                },
+                {
+                    "url": "https://100.74.2.7:8443/login",
+                    "description": "CCN_DC_SW_SWC_01"
+                },
+                {
+                    "url": "https://100.74.2.4:8443/system/dashboard",
+                    "description": "FortiSwitch - SW_ACC_CPD_CN_01"
+                }
+            ]
+        },
+        {
+            "name": "DURAND",
+            "units": [
+                {
+                    "url": "https://op.durand.com.br/apiclient/ember/index.jsp#/Alarms/Alarm/Details/380358",
+                    "description": "OPM | DURAND"
+                }
+            ]
+        },
+        {
+            "name": "ABVCAP",
+            "units": [
+                {
+                    "url": "https://179.191.75.38:4444/login?redir=%2Fprompt%2Ffortigate-setup%3FviewOnly%3D%26redir%3D%252Fsystem%252Fdashboard%252F1",
+                    "description": "179.191.75.38:4444/login?redir=%2Fprompt%2Ffortigate-setup%3FviewOnly%3D%26redir%3D%252Fsystem%252Fdashboard%252F1"
+                }
+            ]
+        },
+        {
+            "name": "CDL",
+            "units": [
+                {
+                    "url": "https://177.69.96.229:5443/login?redir=%2Fnetwork%2Fsd-wan%3FtabType%3Dservice",
+                    "description": "Clinica do Leite"
+                }
+            ]
+        },
+        {
+            "name": "NUBANK",
+            "units": [
+                {
+                    "url": "https://nubank.pinpoint.net.br/apiclient/ember/index.jsp#/Home/Dashboard/Overview/dashboard.name.enterprisedashboard",
+                    "description": "OPM"
+                }
+            ]
+        },
+        {
+            "name": "FORTIGATE",
+            "units": [
+                {
+                    "url": "https://100.109.119.30:8443/firewall/policy/policy/standard?showInList=%7B%22q_origin_key%22:42,%22srcintf%22:%22PROD%22,%22dstintf%22:%22LAB%22%7D",
+                    "description": "FortiGate - PIN-SPO1-FW-01"
+                },
+                {
+                    "url": "https://10.188.100.32:8443/ng/vpn/ipsec",
+                    "description": ""
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "Deicmar",
-      "units": [
-        {
-          "name": "Clia",
-          "url": "https://189.108.172.18:8443/ng/system/dashboard/1",
-          "description": "FortiGate"
-        },
-        {
-          "name": "Ana Costa",
-          "url": "https://100.120.1.3:8443/ng/system/dashboard/1",
-          "description": "FortiGate"
-        },
-        {
-          "name": "IPA",
-          "url": "https://100.120.1.6:8443/network/sd-wan?tabType=health-check",
-          "description": "FortiGate"
-        },
-        {
-          "name": "EMBRA FW1",
-          "url": "https://100.74.0.1:8443/ng/user/local",
-          "description": "FortiGate"
-        }
-      ]
-    }
-  ]
+    ]
 }
